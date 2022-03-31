@@ -1,0 +1,350 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mymargin
+{
+  margin: 25px;
+}
+/* header start */
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+  margin: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(203, 218, 4, 0.2);
+    padding: 20px;
+    /* position:sticky; */
+    top:10px;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1;
+    margin-right: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgba(128, 0, 0, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* header end */
+/* banner-container start */
+.banner-container
+{
+    /* margin-top: 50px;  */
+    /* width: 100%;
+    height: 100vh; */
+    background-image: url(./images/sheet-strip-\ light-background-wallpaper-preview.jpeg); 
+    background-size: cover;  
+    background-color: rgba(0, 128, 128,0.3);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     display: flex;
+
+}
+.banner-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+}
+/* banner-container end */
+.carousel-inner
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+    height: 100vh;
+}
+
+/* leftsection h3 login button start */
+.leftsection
+{
+ width: 500px;
+}
+
+.leftsection h3{ 
+margin: 0;
+font-size: 30px;
+color:aliceblue;
+/* margin-top: 50px; */
+}
+.leftsection p{
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:brown;
+    margin-top: 18px;
+    line-height: 28px;
+}
+/* .rightsection button
+{
+    color:brown;
+    background-color: cornsilk;
+    font-weight: bold;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+} */
+/* left section end */
+/* right section form start */
+.rightsection{
+    width: 500px;
+    /* background-color:cornsilk; */
+    /* border-color: black; */
+    /* border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.219); */
+}
+/* .rightsection h4{
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: brown;
+} */
+.rightsection .container
+{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: red;
+  background: linear-gradient(to bottom, rgb(6, 108, 100),  rgb(14, 48, 122));
+  width: 600px;
+  height: 400px;
+  margin: 10% auto;;
+  border-radius: 5px;
+}
+
+.content-holder
+{
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-top: 15%;
+  padding: 50px;
+}
+
+.content-holder h2
+{
+  font-size: 34px;
+  margin: 20px auto;
+}
+
+.content-holder p
+{
+  margin: 30px auto;
+}
+
+.content-holder button
+{
+  border:none;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: rgb(238, 235, 235);
+  width: 150px;
+  margin: 20px auto;
+}
+
+
+.box-2{
+  background-color: white;
+  height: 42vh;
+
+  margin: 15px;
+}
+
+.login-form-container
+{
+  text-align: center;
+  margin-top: 10%;
+
+}
+
+.login-form-container h1
+{
+  color: black;
+  font-size: 24px;
+  padding: 20px;
+  
+}
+
+.input-field
+{
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid rgb(168, 168, 168);
+  width: 250px;
+  outline: none;
+}
+
+.login-button{
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+  padding: 13px;
+  border-radius: 7px;
+  border: none;
+  width: 250px;
+  height: 40px;
+  outline: none;
+  background-color: rgb(56, 102, 189);
+}
+
+
+
+.button-2
+{
+  display: none;
+}
+
+
+
+
+
+.signup-form-container
+{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-60%);
+  text-align: center;
+  display: none;
+}
+
+
+.signup-form-container h1
+{
+  color: black;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.signup-button{
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+  padding: 13px;
+  border-radius: 7px;
+  border: none;
+  width: 250px;
+  outline: none;
+  background-color: rgb(56, 189, 149);  
+}
+ /* grid section */
+ .team-grid {
+  color:#313437;
+  background-color:#fff;
+}
+
+.team-grid p {
+  color:#7d8285;
+}
+
+.team-grid h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .team-grid h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.team-grid .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.team-grid .intro p {
+  margin-bottom:0;
+}
+
+.team-grid .people {
+  padding:50px 0;
+}
+
+.team-grid .item {
+  margin-bottom:30px;
+}
+
+.team-grid .item .box {
+  text-align:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:300px;
+  position:relative;
+  overflow:hidden;
+}
+
+.team-grid .item .cover {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(31,148,255,0.75);
+  transition:opacity 0.15s ease-in;
+  opacity:0;
+  padding-top:80px;
+  color:#fff;
+  text-shadow:1px 1px 1px rgba(0,0,0,0.15);
+}
+
+.team-grid .item:hover .cover {
+  opacity:1;
+}
+
+.team-grid .item .name {
+  font-weight:bold;
+  margin-bottom:8px;
+}
+
+.team-grid .item .title {
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#bbd8fb;
+  letter-spacing:2px;
+  font-size:13px;
+  margin-bottom:20px;
+}
+
+.team-grid .social {
+  font-size:18px;
+}
+
+.team-grid .social a {
+  color:inherit;
+  margin:0 10px;
+  display:inline-block;
+  opacity:0.7;
+}
+
+.team-grid .social a:hover {
+  opacity:1;
+}
+
